@@ -1,14 +1,14 @@
 {
     "init_cfg":{
-       "isLandscape": true,
-       "isWindowTop": false,
-       "name": "Flappy Bird",
-       "width": 960,
-       "height": 640,
-       "entry": "main.js",
-       "consolePort": 6050,
-       "uploadPort": 6060,
-       "debugPort": 5086
+        "isLandscape": false,
+        "isWindowTop": false,
+        "name": "DemoGame",
+        "width": 640,
+        "height": 960,
+        "entry": "main.js",
+        "consolePort": 6050,
+        "uploadPort": 6060,
+        "debugPort": 5086
     },
     "simulator_screen_size": [
         {

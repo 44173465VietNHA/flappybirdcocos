@@ -1,7 +1,497 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4d55f2b-12a8-484d-a811-f49e89a3e91c" name="Default" comment="" />
+    <list default="true" id="e4d55f2b-12a8-484d-a811-f49e89a3e91c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SysMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_baseframework_auto_api.js" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.bak_0.log" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.lock" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.log" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.mylyn\.taskListIndex\segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.mylyn\.taskListIndex\segments_1" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.mylyn\.tasks.xml.zip" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.mylyn\repositories.xml.zip" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.mylyn\tasks.xml.zip" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\com.crashlytics.tools.eclipse.workbench\.crashlytics_data\.bundles\com.crashlytics.java_3.6.12.201507022240.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\com.crashlytics.tools.eclipse.workbench\.crashlytics_data\.bundles\com.crashlytics.tools.android_4.3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\com.crashlytics.tools.eclipse.workbench\.crashlytics_data\.bundles\com.crashlytics.tools.eclipse.app_3.6.12.201507022240.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\com.crashlytics.tools.eclipse.workbench\.crashlytics_data\.bundles\com.crashlytics.tools.eclipse.core_3.6.12.201507022240.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\com.crashlytics.tools.eclipse.workbench\.crashlytics_data\.bundles\com.crashlytics.tools.eclipse.exporter_3.6.12.201507022240.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.cdt.core\.log" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.cdt.core\HelloJavascript.1525944589220.pdom" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.cdt.core\libBaseFramework.1525944311064.pdom" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.cdt.make.core\specs.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.cdt.make.core\specs.cpp" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.history\1e\f01d05de345400181f87a1b200dba803" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.history\4a\a027328c1f5700181f87a1b200dba803" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.history\68\c08324871f5700181f87a1b200dba803" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.history\74\4027a1a7405700181f87a1b200dba803" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\.org.eclipse.jdt.core.external.folders\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\11\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\12\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\1\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\1d\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\1f\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\29\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\32\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\3e\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\44\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\48\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\4\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\4a\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\50\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\5\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\5a\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\62\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\63\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\68\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\6b\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\71\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\74\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\79\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\84\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\87\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\8\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\9f\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\a9\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\b2\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\b7\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\c1\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\c2\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\c7\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\c\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\ce\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\cf\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\d0\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\d6\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\de\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\f4\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\f7\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\f8\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\a0\fd\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\FacebookSDKv4\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\HelloJavascript\.indexes\a0\de\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\HelloJavascript\.indexes\e4\e4\35\6d\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\HelloJavascript\.indexes\history.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\HelloJavascript\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\HelloJavascript\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\HelloJavascript\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\HelloJavascript\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\10\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\11\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\44\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\62\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\63\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\64\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\8c\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\ae\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\cd\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\d6\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\de\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\eb\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\ee\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\f3\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\a0\f6\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\ZaloSDK\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\11\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\12\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\14\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\16\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\17\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\1\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\1c\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\1d\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\1f\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\30\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\32\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\38\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\3a\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\3e\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\44\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\47\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\48\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\49\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\4\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\4a\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\50\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\57\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\5\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\5e\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\62\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\63\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\68\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\6\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\6b\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\6d\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\6f\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\71\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\74\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\79\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\7b\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\7f\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\81\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\82\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\86\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\88\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\8e\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\91\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\99\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\9b\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\9f\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\a2\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\a9\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\a\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\ab\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\ac\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\b2\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\b4\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\b7\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\b\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\ba\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\c0\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\c1\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\c2\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\c3\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\c7\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\c\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\ca\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\cd\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\ce\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\d6\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\d8\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\d\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\da\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\dd\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\de\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\df\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\e\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\eb\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\ec\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\ed\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\ee\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\f0\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\f1\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\f2\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\f3\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\f4\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\f7\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\f8\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\fc\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\fd\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\a0\fe\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\android-support-v7-appcompat\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\cardview\.indexes\a0\c\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\cardview\.indexes\a0\de\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\cardview\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\cardview\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\cardview\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\11\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\12\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\14\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\16\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\17\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\1\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\1c\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\1d\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\1f\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\30\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\32\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\38\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\3a\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\3e\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\44\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\47\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\48\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\49\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\4\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\4a\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\50\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\57\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\5\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\62\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\63\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\68\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\6\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\6b\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\6d\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\71\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\74\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\79\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\7b\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\7f\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\81\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\86\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\8e\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\91\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\9f\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\a2\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\a9\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\b2\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\b4\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\b7\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\ba\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\c1\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\c2\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\c3\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\c7\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\c\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\ce\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\d8\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\d\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\da\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\de\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\df\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\e\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\eb\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\ed\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\f4\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\f7\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\f8\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\fc\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\fd\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\a0\fe\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\google-play-services_android_lib\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libAppsFlyer\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libAppsFlyer\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libAppsFlyer\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libAppsFlyer\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libBaseFramework\.indexes\a0\de\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libBaseFramework\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libBaseFramework\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libBaseFramework\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libBaseFramework\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libIAPGooglePlay\.indexes\a0\de\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libIAPGooglePlay\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libIAPGooglePlay\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libIAPGooglePlay\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libIAPGooglePlay\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPlatformWrapper\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPlatformWrapper\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPlatformWrapper\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPlatformWrapper\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginFacebook\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginFacebook\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginFacebook\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginFacebook\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginProtocol\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginProtocol\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginProtocol\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginProtocol\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginZalo\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginZalo\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginZalo\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libPluginZalo\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libcocos2dx\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libcocos2dx\.location" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libcocos2dx\.markers" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.projects\libcocos2dx\org.eclipse.jdt.core\state.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\history.version" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.version" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.root\1.tree" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\com.android.ide.eclipse.adt.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.core.prj-HelloJavascript.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.core.prj-libBaseFramework.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.debug.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.debug.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.debug.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.epp.logging.aeri.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.launching.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.m2e.discovery.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.context.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.monitor.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.tasks.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.team.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.editors.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.ide.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.workbench.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.wst.jsdt.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.wst.sse.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.debug.core\.launches\HelloJavascript.launch" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.debug.ui\launchConfigurationHistory.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.fdt" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.fdx" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.fnm" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.frq" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.nrm" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.tii" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.tis" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\segments_1" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_0.fdt" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_0.fdx" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_0.tis" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.fdt" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.fdx" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.fnm" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.frq" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.nrm" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.tii" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.tis" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\segments_2" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\.org.eclipse.jdt.core.external.folders\.project" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1065401596.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1065619327.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1167895473.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1169910893.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\130067471.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1401177119.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1480336475.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1484218439.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1625962582.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1664956072.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1790843061.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1792095287.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1902220430.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1912785564.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\1969679663.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2032592034.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2072714593.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2131946023.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2132850862.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2250453553.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2316834415.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2471439715.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2523282401.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2616652956.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2620423123.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2646706646.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2667725160.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\269649310.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2800001628.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2808108173.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2808780894.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2897519064.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\2970940809.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\3011928169.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\3175190772.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\3222267787.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\3302418108.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\3389104129.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\3515282563.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\3704413636.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\3810008523.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\3823363771.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\383395191.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\4039064728.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\4045737153.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\4060697609.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\4066739990.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\4096478992.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\4244785774.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\4279874476.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\505227663.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\53725817.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\615677771.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\674381654.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\791514016.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\836899670.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\932753474.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\assumedExternalFilesCache" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\externalFilesCache" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\externalLibsTimeStamps" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\javaLikeNames.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\nonChainingJarsCache" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\savedIndexNames.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.launching\libraryInfos.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.ui\OpenTypeHistory.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.ui\QualifiedTypeNameHistory.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.jdt.ui\dialog_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\.workspace\2018\5\19\refactorings.history" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\.workspace\2018\5\19\refactorings.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\.workspace\2018\5\20\refactorings.history" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\.workspace\2018\5\20\refactorings.index" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.ltk.ui.refactoring\dialog_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.m2e.logback.configuration\logback.1.6.0.20150526-2032.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.oomph.setup\workspace.setup" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.ui.workbench\dialog_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.ui.workbench\workingsets.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.internet.cache\cache.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.jsdt.core\externalLibsTimeStamps" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.jsdt.core\libraries\baseBrowserLibrary.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.jsdt.core\libraries\browserWindow.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.jsdt.core\libraries\dom5.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.jsdt.core\libraries\system.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.jsdt.core\libraries\xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.jsdt.core\variablesAndContainers.dat" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.jsdt.ui\OpenTypeHistory.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.jsdt.ui\QualifiedTypeNameHistory.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.sse.core\task-tags.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.sse.ui\dialog_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.xml.core\default_catalog.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.wst.xml.core\system_catalog.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\.metadata\version.ini" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_baseframework_auto_api.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_effekseer_auto_api.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_engine_api.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_physicbida_auto_api.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_pluginx_auto_api.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\AppDelegate.cpp" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\ide-support\CodeIDESupport.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\ide-support\RuntimeJsImpl.cpp" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\ide-support\RuntimeJsImpl.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\ide-support\SimpleConfigParser.cpp" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\ide-support\SimpleConfigParser.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\ide-support\lang" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\js_module_register.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\ui\PopupDialog.cpp" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\ui\PopupDialog.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\update\AssetUpdate.cpp" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\update\AssetUpdate.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\update\Localization.cpp" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\update\Localization.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\update\ScreenUpdateAssets.cpp" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\frameworks\runtime-src\Classes\update\ScreenUpdateAssets.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\res\config.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\res\ipConfig.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\flappybirdcocos\simulator\cache\jsb.sqlite" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulator/win32/libcocos2d.dll" afterPath="$PROJECT_DIR$/simulator/win32/libcocos2d.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulator/win32/script/jsb_boot.js" afterPath="$PROJECT_DIR$/simulator/win32/script/jsb_boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulator/win32/script/ccui/jsb_ccui_deprecated.js" afterPath="$PROJECT_DIR$/simulator/win32/script/ccui/jsb_ccui_deprecated.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.json" afterPath="$PROJECT_DIR$/project.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.prx" afterPath="$PROJECT_DIR$/simulator/android/HelloJavascript-debug.apk" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_3d_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_3d_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_3d_extension_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_3d_extension_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_audioengine_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_audioengine_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_builder_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_builder_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_dragonbones_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_dragonbones_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_experimental_video_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_experimental_video_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_experimental_webView_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_experimental_webView_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_extension_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_extension_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_navmesh_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_navmesh_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_physics3d_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_physics3d_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_spine_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_spine_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_studio_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_studio_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\frameworks\js-bindings\api\jsb_cocos2dx_ui_auto_api.js" afterPath="$PROJECT_DIR$/api/jsb_cocos2dx_ui_auto_api.js" />
+      <change type="MOVED" beforePath="E:\flappybirdcocos\simulator\win32\GameClientJS.exe" afterPath="$PROJECT_DIR$/simulator/win32/DemoGame.exe" />
+    </list>
     <ignored path="HelloJavascript.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,33 +522,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GamePlayer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GamePlayer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GamePlayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2125">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding>
                 <element signature="e#0#48#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".name" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/.name">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.5">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysMenu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SysMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -79,6 +581,9 @@
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -87,8 +592,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/data/Resource.js" />
-        <option value="$PROJECT_DIR$/src/network/custom/CustomPacket.js" />
         <option value="$PROJECT_DIR$/src/network/GameClient.js" />
         <option value="$PROJECT_DIR$/src/gui/popup/PopupAlert.js" />
         <option value="$PROJECT_DIR$/src/gui/screen/Login/LayerRegister.js" />
@@ -131,13 +634,15 @@
         <option value="$PROJECT_DIR$/src/framework/PaymentInfo.js" />
         <option value="$PROJECT_DIR$/src/modules/payment/ScreenGoogleIAP.js" />
         <option value="$PROJECT_DIR$/src/framework/Framework.js" />
-        <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/src/modules/mainmenu/ScreenMenu.js" />
         <option value="$PROJECT_DIR$/src/framework/UserData.js" />
         <option value="$PROJECT_DIR$/src/modules/animation/ScreenDragonbones.js" />
-        <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/project.json" />
         <option value="$PROJECT_DIR$/src/GamePlayer.js" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/config.json" />
+        <option value="$PROJECT_DIR$/HelloJavascript.iml" />
+        <option value="$PROJECT_DIR$/src/SysMenu.js" />
       </list>
     </option>
   </component>
@@ -156,10 +661,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="690" />
-    <option name="y" value="123" />
-    <option name="width" value="869" />
-    <option name="height" value="525" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -177,14 +682,14 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -203,6 +708,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,7 +723,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flappy" />
+              <option name="myItemId" value="flappybirdcocos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -227,7 +733,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flappy" />
+              <option name="myItemId" value="flappybirdcocos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -235,10 +741,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloJavascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flappybirdcocos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="win32" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloJavascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flappybirdcocos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloJavascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flappybirdcocos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloJavascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flappybirdcocos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -252,7 +817,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/VIET/Study/study/Dev_client_install/workshop/GameDemo" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -262,6 +827,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\flappybirdcocos" />
       <recent name="D:\Project\TemplateGame\src\framework\plugins" />
       <recent name="D:\Project\lgrc_project\client\HelloJavascript\src\network\auto" />
       <recent name="D:\Project\lgrc_project\client\HelloJavascript\src\game\render\effect" />
@@ -492,9 +1058,6 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -544,10 +1107,9 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.InPacketGenerate.js" />
-      <item index="1" class="java.lang.String" itemvalue="JSBinding.Win32Debug" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JSBinding.Win32Debug" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -645,11 +1207,12 @@
       <workItem from="1591001131977" duration="2666000" />
       <workItem from="1591004737468" duration="79000" />
       <workItem from="1591004832643" duration="3530000" />
+      <workItem from="1591026851924" duration="1504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1676775000" />
+    <option name="totallyTimeSpent" value="1678279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,20 +1224,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="690" y="123" width="869" height="525" extended-state="0" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22941822" sideWeight="0.4892704" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4783654" sideWeight="0.7831184" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47807488" sideWeight="0.784375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4783654" sideWeight="0.21688159" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47807488" sideWeight="0.215625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284055" sideWeight="0.49580714" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.4945946" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.4945946" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24895833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -763,6 +1326,32 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GamePlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.cocos-project.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -800,52 +1389,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frameworks/js-bindings/api/jsb_cocos2dx_3d_auto_api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.125">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frameworks/runtime-src/Classes/ui/PopupDialog.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.28333333">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frameworks/runtime-src/Classes/ui/PopupDialog.h">
+    <entry file="file://$PROJECT_DIR$/project.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frameworks/runtime-src/Classes/ide-support/CodeIDESupport.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frameworks/runtime-src/Classes/AppDelegate.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frameworks/runtime-src/Classes/AppDelegate.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30694443">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -853,13 +1401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloJavascript.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2361111">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -872,29 +1413,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
+    <entry file="file://$PROJECT_DIR$/api/jsb_cocos2dx_auto_api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.json">
+    <entry file="file://$PROJECT_DIR$/HelloJavascript.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.4857143">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9207459">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SysMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/jsb_cocos2dx_baseframework_auto_api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulator/win32/lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GamePlayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2125">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="e#0#48#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

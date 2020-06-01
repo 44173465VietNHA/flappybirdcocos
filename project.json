@@ -12,6 +12,7 @@
         "external"
     ],
     "jsListOrder": [
+	"src/GamePlayer.js"
     ],
     "jsList": [
         "src/GamePlayer.js"
