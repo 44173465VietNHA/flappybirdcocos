@@ -1,8 +1,8 @@
 var LAYER_TAGS = {
-    background : 1,
-    gameplay : 2,
-    gamestatus : 3,
-    gameover : 4
+    BACKGROUND : 1,
+    GAMEPLAY : 2,
+    GAMESTATUS : 3,
+    GAMEOVER : 4
 };
 
 var GameMenuScene = cc.Scene.extend({
@@ -35,8 +35,8 @@ var GameScene = cc.Scene.extend({
         //this.layers.gameStatus = new GameStatusLayer();
         //this.layers.gamePlay = new GamePlayLayer(this);
 
-        this.addChild(this.layers.background, 0, LAYER_TAGS.background);
-        this.addChild(this.layers.gamePlay, 1, LAYER_TAGS.gameplay);
-        this.addChild(this.layers.gameStatus, 2, LAYER_TAGS.gamestatus);
+        this.addChild(this.layers.background, 0, LAYER_TAGS.BACKGROUND);
+        this.addChild(this.layers.gamePlay, 1, LAYER_TAGS.GAMEPLAY);
+        this.addChild(this.layers.gameStatus, 2, LAYER_TAGS.GAMESTATUS);
     }
 });

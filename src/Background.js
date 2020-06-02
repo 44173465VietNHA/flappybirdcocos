@@ -1,7 +1,7 @@
 var BackgroundLayer = cc.LayerColor.extend({
     dayColors : {
         "day" : new cc.Color(78, 192, 202, 255),
-        "night" : new cc.Color(78, 192, 202, 255)
+        "night" : new cc.Color(0, 135, 147, 255)
     },
     day : null,
     land : null,
@@ -37,7 +37,7 @@ var BackgroundLayer = cc.LayerColor.extend({
 
         var rand = parseInt(cc.rand() % 10);
 
-        if(rand != 5)
+        if(rand > 4)
             this.day = "day";
         else
             this.day = "night";
