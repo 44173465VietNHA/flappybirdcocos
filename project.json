@@ -11,11 +11,6 @@
         "extensions",
         "external"
     ],
-    "jsListOrder": [
-        "src/Resources.js",
-        "src/Background.js",
-        "src/App.js"
-    ],
     "jsList": [
         "src/Resources.js",
         "src/Floor.js",

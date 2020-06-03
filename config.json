@@ -3,8 +3,8 @@
        "isLandscape": false,
        "isWindowTop": false,
        "name": "HelloJavascript",
-       "width": 720,
-       "height": 1280,
+       "width": 400,
+       "height": 711,
        "entry": "main.js",
        "consolePort": 6050,
        "uploadPort": 6060,
@@ -13,8 +13,8 @@
     "simulator_screen_size": [
         {
             "title": "iPhone 3Gs (480x320)",
-            "width": 1080,
-            "height": 1920
+            "width": 320,
+            "height": 480
         },
         {
             "title": "iPhone 4 (960x640)",

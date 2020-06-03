@@ -30,14 +30,14 @@ var BackgroundLayer = cc.LayerColor.extend({
         );
 
         this.addChild(this.land, 0, 1);
-        this.land.setPosition(this.land.width/2, this.land.height/2);
+        this.land.setPosition(this.land.width / 2, this.land.height / 2);
     },
 
     setDay : function(){
 
         var rand = parseInt(cc.rand() % 10);
 
-        if(rand > 4)
+        if(rand > 2)
             this.day = "day";
         else
             this.day = "night";

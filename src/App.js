@@ -11,10 +11,10 @@ var GameMenuScene = cc.Scene.extend({
         this._super();
 
         var background = new BackgroundLayer();
-        //var menu = new GameMenuLayer();
+        var menu = new GameMenuLayer();
 
         this.addChild(background, 0);
-        //this.addChild(menu, 1);
+        this.addChild(menu, 1);
     }
 });
 
@@ -32,8 +32,8 @@ var GameScene = cc.Scene.extend({
         this._super();
 
         this.layers.background = new BackgroundLayer();
-        //this.layers.gameStatus = new GameStatusLayer();
-        //this.layers.gamePlay = new GamePlayLayer(this);
+        this.layers.gameStatus = new GameStatusLayer();
+        this.layers.gamePlay = new GamePlayLayer(this);
 
         this.addChild(this.layers.background, 0, LAYER_TAGS.BACKGROUND);
         this.addChild(this.layers.gamePlay, 1, LAYER_TAGS.GAMEPLAY);
