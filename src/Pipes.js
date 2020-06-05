@@ -11,11 +11,11 @@ var Pipe = cc.Sprite.extend({
 
     ctor : function (lowerNeighbor) {
         if (typeof lowerNeighbor != null) {
-            this._super(resources.Entities_png, new cc.Rect(52, 75, 52, 320));
+            this._super(resources.Entities_png, new cc.rect(52, 75, 52, 320));
             this.lowerNeighbor = lowerNeighbor;
         }
         else
-            this._super(resources.Entities_png, new cc.Rect(0, 75, 52, 320));
+            this._super(resources.Entities_png, new cc.rect(0, 75, 52, 320));
 
         var currentScene = cc.director.getRunningScene();
 
@@ -33,9 +33,9 @@ var Pipe = cc.Sprite.extend({
             return;
         if (!this.updateRect) {
             if (this.lowerNeighbor)
-                this.setTextureRect(new cc.Rect(52, 75, 52, 320));
+                this.setTextureRect(new cc.rect(52, 75, 52, 320));
             else
-                this.setTextureRect(new cc.Rect(0, 75, 52, 320));
+                this.setTextureRect(new cc.rect(0, 75, 52, 320));
 
             this.updatedRect = true;
         }
@@ -63,7 +63,7 @@ var Pipe = cc.Sprite.extend({
         this.setPositionX(this.getPositionX() - this.parent.parent.speed.x * dt);
 
         if (this.lowerNeighbor)
-            this.lowerNeighbor.setPositionX(this.PositionX());
+            this.lowerNeighbor.setPositionX(this.getPositionX());
     },
 
     spawn : function () {
@@ -96,7 +96,7 @@ var PipesLayer = cc.Layer.extend({
         this.lastPipes.down = null;
         this.lastPipes.up = null;
 
-        this.sheduleUpdate();
+        this.scheduleUpdate();
     },
 
     update : function (dt) {

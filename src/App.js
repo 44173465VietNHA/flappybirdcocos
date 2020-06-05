@@ -15,6 +15,7 @@ var GameMenuScene = cc.Scene.extend({
 
         this.addChild(background, 0);
         this.addChild(menu, 1);
+        //this.scheduleUpdate();
     }
 });
 

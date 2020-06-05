@@ -4,7 +4,7 @@
 var Floor = cc.Sprite.extend({
     ctor : function () {
         this._super(resources.Background_png, cc.rect(0, 1024, cc.winSize.width, 108));
-        this.setPosition(this.width >> 1, this.height >> 1);
+        this.setPosition(this.width / 2, this.height / 2);
     },
 
     scroll : function (dt, speed) {
