@@ -7,7 +7,7 @@ cc.game.onStart = function () {
     cc.view.enableRetina(false);
     // Adjust viewport meta
     cc.view.adjustViewPort(true);
-    cc.view.setDesignResolutionSize(432, 512, cc.ResolutionPolicy.SHOW_ALL);
+    cc.view.setDesignResolutionSize(411, 640, cc.ResolutionPolicy.SHOW_ALL);
     //jsb.fileUtils.addSearchPath(fr.NativeService.getFolderUpdateAssets(), true);
     //jsb.fileUtils.addSearchPath(fr.NativeService.getFolderUpdateAssets() + "/res", true);
     cc.loader.resPath = "res";

@@ -4,6 +4,7 @@
 var resources = {
     Background_png: "res/images/background.png",
     Gui_png: "res/images/gui.png",
+    Play_png: "res/images/playbutton.png",
     Entities_png: "res/images/entities.png",
     FlappyBird_fnt: "res/fonts/flappyBird.fnt",
     FlappyBird_png: "res/fonts/flappyBird.png"

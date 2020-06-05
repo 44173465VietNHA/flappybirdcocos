@@ -3,7 +3,7 @@
  */
 var Pipe = cc.Sprite.extend({
     MAX_Y : null,
-    MIDDLE_SPACE : 67.5,
+    MIDDLE_SPACE : 100,
     floor : null,
     bird : null,
     updateRect : false,
@@ -15,7 +15,7 @@ var Pipe = cc.Sprite.extend({
             this.lowerNeighbor = lowerNeighbor;
         }
         else
-            this._super(resources.Entities_png, new cc.rect(0, 75, 52, 320));
+            this._super(resources.Entities_png, new cc.rect(52, 75, 52, 320));
 
         var currentScene = cc.director.getRunningScene();
 
@@ -37,7 +37,7 @@ var Pipe = cc.Sprite.extend({
             else
                 this.setTextureRect(new cc.rect(0, 75, 52, 320));
 
-            this.updatedRect = true;
+            //this.updatedRect = true;
         }
 
         if (this.parent.parent.checkBirdCollision(this, this.bird)) {
@@ -68,10 +68,10 @@ var Pipe = cc.Sprite.extend({
 
     spawn : function () {
         var posX = this.width / 2 + cc.winSize.width,
-            posY = Math.floor(cc.rand() % (this.MAX_Y - this.MIDDLE_SPACE));
+            posY = Math.floor(cc.rand() % (this.MAX_Y - this.MIDDLE_SPACE)) + 40;
 
         if (this.lowerNeighbor) {
-            posY = cc.winSize.height - this.height / 2;
+            posY = cc.winSize.height - this.height * 6/7;
             posY += this.lowerNeighbor.getPositionY() + this.MIDDLE_SPACE;
         }
 

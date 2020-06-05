@@ -8,7 +8,6 @@ var GamePlayLayer = cc.Layer.extend({
     pipes: null,
     speed: {x: 150, y: 100},
     limitSpeed: {x: 250, y: 1000},
-
     ctor: function (scene) {
 
         this._super();
@@ -48,6 +47,8 @@ var GamePlayLayer = cc.Layer.extend({
 
         var rect = rectObj.getBoundingBox();
         var circle = bird.getBoundingCircle();
+        //var circle = bird.getBoundingBox();
+
 
         circle.x = circle.x - circle.r * 2;
         rect.y = (rect.y - rect.height / 2) + rect.height;

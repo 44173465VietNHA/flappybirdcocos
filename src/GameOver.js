@@ -58,8 +58,6 @@ var GameOverLayer = cc.Layer.extend({
 
     showFinalScore : function () {
 
-        //cc.audioEngine.playEffect(resources.Sfx_swooshing_ogg);
-
         var scoreContainer = new cc.Sprite(resources.Gui_png, new cc.rect(0, 302, 238, 126));
 
         scoreContainer.setPosition(
@@ -78,7 +76,6 @@ var GameOverLayer = cc.Layer.extend({
     },
 
     calcScore : function(container, currentLayer) {
-        //cc.sys.localStorage.removeItem("score"); cc.sys.localStorage.removeItem("bestScore"); cc.sys.localStorage.removeItem("lastBestScore");
 
         var totalScore = cc.sys.localStorage.getItem("score");
         var bestScore = cc.sys.localStorage.getItem("bestScore");
@@ -127,7 +124,7 @@ var GameOverLayer = cc.Layer.extend({
         var delay = new cc.DelayTime(delayTime);
         var incrementSeq = new cc.Sequence(
             delay,
-            cc.callFunc(function(layer){
+            cc.callFunc(function(){
 
                 scoreLabel.setString(increase.toString());
 
@@ -138,7 +135,6 @@ var GameOverLayer = cc.Layer.extend({
 
                 if(totalScore == increase) {
                     scoreLabel.stopAllActions();
-                    currentLayer.addMedal(container, totalScore);
                     return;
                 }
 
@@ -161,117 +157,23 @@ var GameOverLayer = cc.Layer.extend({
             container.addChild(newLabel);
     },
 
-    addMedal : function (container, score) {
-
-        if( score < 10 )
-            return;
-        var medals = {
-            platinum : [40, new cc.rect(219, 4, 44, 44)],
-            gold : [30, new cc.rect(219, 50, 44, 44)],
-            silver : [20, new cc.rect(219, 96, 44, 44)],
-            bronze : [10, new cc.rect(219, 142, 44, 44)]
-        };
-
-        var medal = new cc.Sprite(resources.Gui_png);
-
-        for(var k in medals)
-        {
-            if( score >= medals[k][0] ){
-                medal.setTextureRect(medals[k][1]);
-                break;
-            }
-        }
-
-        medal.setPosition(
-            medal.width / 2 + 31,
-            medal.height / 2 + 38
-        );
-
-        medal.setOpacity(0);
-
-        container.addChild(medal);
-
-        medal.runAction(new cc.Sequence(
-            cc.fadeIn(0.1)
-        ));
-
-        var shine = new cc.Sprite();
-        shine.setAnchorPoint(0, 0);
-
-        var shineFrames = [
-            new cc.SpriteFrame.create(resources.Gui_png, new cc.rect(208, 3, 10, 10)),
-            new cc.SpriteFrame.create(resources.Gui_png, new cc.rect(208, 13, 10, 10)),
-            new cc.SpriteFrame.create(resources.Gui_png, new cc.rect(208, 23, 10, 10))
-        ];
-
-        var animation = cc.Animation.create(shineFrames, 0.2),
-            animateAction = cc.Animate.create(animation);
-
-        var shineSeq = new cc.Sequence(
-            animateAction,
-            animateAction.reverse(),
-            cc.callFunc(function(){
-                var limits = new cc.p(medal.width, medal.height);
-                var randX = (cc.rand() % limits.x);
-                var randY = (cc.rand() % limits.y);
-
-                shine.setPosition(randX, randY);
-            })
-        );
-
-        shine.runAction(new cc.RepeatForever(shineSeq));
-
-        medal.addChild(shine);
-    },
-
     showMenuButtons : function () {
 
         var floor = this.parent.layers.gamePlay.floor;
 
-        //cc.audioEngine.playEffect(resources.Sfx_swooshing_ogg);
-
-        var playBtnSprite = new cc.Sprite(resources.Gui_png, new cc.rect(0, 436, 116, 70));
-        var rankingBtnSprite = new cc.Sprite(resources.Gui_png, new cc.rect(118, 436, 116, 70));
-
-        playBtnSprite.setPosition(
-            cc.winSize.width / 2 - playBtnSprite.width/2 - 5,
-            floor.height + playBtnSprite.height/2 - 10
+        var btn = new ccui.Button(resources.Play_png);
+        btn.setPosition(
+            cc.winSize.width / 2,
+            floor.height + btn.height/2
         );
-
-        rankingBtnSprite.setPosition(
-            cc.winSize.width / 2 + rankingBtnSprite.width/2 + 5,
-            floor.height + rankingBtnSprite.height/2 - 10
-        );
-
-        this.addChild(playBtnSprite);
-        this.addChild(rankingBtnSprite);
-
-        this.setEvents();
+        this.addChild(btn);
+        btn.addClickEventListener(this.onClickPlay.bind(this));
 
     },
 
-    restartGame : function() {
-
-        //cc.audioEngine.playEffect(resources.Sfx_swooshing_ogg);
-
-        //var btnActiveSeq = new cc.Sequence(
-        //    cc.moveBy(0.1, 0, -5),
-        //    cc.moveBy(0.1, 0, 5)
-        //);
-        //
-        //target.runAction(btnActiveSeq);
-
+    onClickPlay : function(){
         var newScene = cc.TransitionFade.create(1.5, new GameScene(), cc.color(0,0,0));
 
         cc.director.runScene(newScene);
     },
-
-    setEvents : function () {
-        cc.eventManager.addListener({
-            event: cc.EventListener.MOUSE,
-            onMouseDown: function(event){
-                event.getCurrentTarget().restartGame();
-            }
-        }, this);
-    }
 });
